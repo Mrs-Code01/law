@@ -301,6 +301,15 @@ footer {
 .numbers a,
 .email a {
   color: rgb(141, 141, 141);
+  transition: all .3s ease-in;
+}
+
+.numbers a:hover {
+  color: rgb(228, 228, 228);
+}
+
+.email a:hover {
+  color: rgb(228, 228, 228);
 }
 
 .socials a:not(:last-child) {
