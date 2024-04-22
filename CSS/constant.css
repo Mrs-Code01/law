@@ -226,6 +226,8 @@ nav ul li a:hover {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .section-3-width h2 {
