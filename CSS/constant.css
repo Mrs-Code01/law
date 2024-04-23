@@ -114,6 +114,7 @@ nav ul {
   justify-content: end;
 }
 
+
 nav ul li:not(:last-child) {
   margin-right: 40px;
 }
@@ -128,6 +129,10 @@ nav ul li a {
 
 nav ul li a:hover {
   opacity: .5;
+}
+
+nav a:is(:link, :active, :visited).active {
+  opacity: .4;
 }
 
 .our-team-magnet {
@@ -482,6 +487,24 @@ footer {
 }
 
 
+/* .n-2.active {
+  opacity: .4;
+} */
+
+/* 
+
+
+.n-3.active {
+  opacity: .5;
+}
+
+.n-4.active {
+  opacity: .5;
+}
+
+.n-5.active {
+  opacity: .5;
+} */
 
 
 @media screen and (max-width:1150px) {
