@@ -587,6 +587,23 @@ footer {
     display: block;
   }
 
+  .arrow2.add {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+
+  .arrow3.add {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+
+  .our-team-float li a {
+    font-size: 1.7rem;
+  }
+
+  .expertise-float li a {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (max-width:1055px) {
@@ -645,6 +662,19 @@ footer {
   .sec-2-item img {
     height: 230px;
   }
+
+
+  .chat {
+    width: 140px;
+  }
+
+  .chat img {
+    width: 34px;
+  }
+
+  .chat a:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width:450px) {
@@ -683,24 +713,20 @@ footer {
     width: 48%;
   }
 
-  .chat {
-    width: 160px;
-  }
-
-  .chat img {
-    width: 38px;
-  }
-
-  .chat a:nth-of-type(2) {
-    font-size: 1.6rem;
-  }
-
   .section-3-width h2 {
     font-size: 2.5rem;
   }
 
   .heading-width h2 {
     font-size: 5rem;
+  }
+
+  .our-team-float li a {
+    font-size: 1.5rem;
+  }
+
+  .expertise-float li a {
+    font-size: 1.5rem;
   }
 }
 

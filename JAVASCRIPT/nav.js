@@ -17,7 +17,9 @@ hamburger.addEventListener('click', () => {
 
 arrow3.addEventListener('click', () => {
   expertiseFloat.classList.toggle('expertise-open');
+  arrow3.classList.toggle('add');
 });
 arrow2.addEventListener('click', () => {
   ourTeamFloat.classList.toggle('our-team-float-open');
+  arrow2.classList.toggle('add');
 });

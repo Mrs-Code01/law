@@ -1,5 +1,5 @@
 main {
-  background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../IMAGES/sneakers-1428292_1280\ -\ Copy.jpg');
+  background: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../IMAGES/chair.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
@@ -31,6 +31,25 @@ main {
 
 .main-width p {
   font-size: 2.3rem;
+}
+
+.main-width a {
+  color: #ffffff;
+  background-color: var(--btn-brown);
+  padding: 17px 0px;
+  width: 190px;
+  margin: 30px auto 0;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 2.3rem;
+  text-decoration: none;
+  transition: .3s all ease-in;
+  cursor: pointer;
+  border: 0px;
+}
+
+.main-width a:hover {
+  opacity: .7;
 }
 
 /*********THIS IS THE END OF THE MAIN**********/
@@ -99,6 +118,14 @@ main {
 /********SECTION ONE END********/
 /********SECTION ONE END********/
 @media screen and (max-width:700px) {
+  main {
+    min-height: 600px;
+  }
+
+  .main-width {
+    min-height: 600px;
+  }
+
   .section-1-width {
     flex-wrap: wrap;
   }
@@ -115,6 +142,16 @@ main {
   }
 }
 
+@media screen and (max-width:530px) {
+  .main-width h1 {
+    font-size: 4.3rem;
+  }
+
+  .main-width p {
+    font-size: 1.9rem;
+  }
+}
+
 @media screen and (max-width:500px) {
   main {
     min-height: 630px;
@@ -123,4 +160,11 @@ main {
   .main-width {
     min-height: 630px;
   }
+
+  .main-width a {
+    font-size: 2rem;
+    padding: 15px 0px;
+    width: 150px;
+  }
+
 }
