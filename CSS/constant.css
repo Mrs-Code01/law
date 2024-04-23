@@ -649,6 +649,16 @@ footer {
 }
 
 @media screen and (max-width:530px) {
+
+  .heading,
+  .heading-width {
+    min-height: 300px;
+  }
+
+  .heading-width h2 {
+    font-size: 4.2rem;
+  }
+
   .sec-2-item {
     width: 100%;
   }
@@ -715,10 +725,6 @@ footer {
 
   .section-3-width h2 {
     font-size: 2.5rem;
-  }
-
-  .heading-width h2 {
-    font-size: 5rem;
   }
 
   .our-team-float li a {
